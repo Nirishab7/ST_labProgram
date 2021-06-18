@@ -21,7 +21,7 @@ public static void main(String args[])
         in.close();
 		return;
 	}
-	if((a+b)<=c & (b+c)<=a & (a+c)<=b)
+	if((a+b)<=c || (b+c)<=a || (a+c)<=b)
 	{
 		System.out.println("Not a Triangle");
         in.close();

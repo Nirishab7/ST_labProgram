@@ -35,7 +35,7 @@ public class p4 {
         System.out.println("Side" +v+"out of range");
         return;
     }
-	if((a+b)<=c & (b+c)<=a & (a+c)<=b)
+	if((a+b)<=c || (b+c)<=a || (a+c)<=b)
 	{
 		System.out.println("Not a Triangle");
 		return;
