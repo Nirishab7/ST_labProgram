@@ -26,7 +26,7 @@ public class p10 {
             }
             else if(a[mid]<key)
             {
-                
+                low=mid+1;
             }
             else
             {
